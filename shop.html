@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link rel="stylesheet" href="Style.css">
+</head>
+<style>
+  #hero {
+    background-image: url("https://img.faballey.com/images/banner/9ebf4700-c29a-4be7-be82-57eb450f510a.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+}
+.nav-item a{
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+</style>
+
+<body>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><h2><i>Nimbalkar Dhananjay</i></h2></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><h2><i>Nimbalkar Dhananjay</i></h2></h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </div> 
+  </nav>
+  <section id="hero" style="margin-top: 55px;">
+    <!-- <h4>Trade-in-offer</h4>
+    <h2>Super value deals</h2>
+    <h1>On all products</h1>
+    <p>Save more with coupons & up to 70% oof!</p>
+    <button id="shopbtn">Shop Now</button> -->
+  </section>
+  <section id="page-header ">
+    <!-- <h2>#stayhome</h2>
+      <p>Save more with coupens & up to 70% off!</p> -->
+  </section>
+  <section id="product1" class="section-p1">
+    <div class="pro-container">
+      <div class="pro" onclick="window.location.href='sproduct.html'">
+        <img src="img16.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img17.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img2.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img3.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img4.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img5.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img6.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img7.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img8.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img9.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img10.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img11.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img12.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img13.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img14.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro"  onclick="window.location.href='sproduct.html'">
+        <img src="img15.jfif" alt="" />
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronuts T-Shirts</h5>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </div>
+  </section>
+  <section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"> <i class="fas fa-long-arrow-alt-right  "></i></a>
+  </section>
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For Newsletters</h4>
+      <p>
+        Get E-mail updates about our letest shop and
+        <span>special offers.</span>
+      </p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="Your email address" />
+      <button class="normal">Sign Up</button>
+    </div>
+  </section>
+  <footer class="section-p1">
+    <div class="col">
+      <h1 class="logo">
+        <i style="color: black; font-size: 34px">Dhananjay Nimbalkar</i>
+      </h1>
+      <h4>Contact</h4>
+      <p><strong>Address:</strong> Dighi ,Karjat, Ahamadnagar 414401</p>
+      <p><strong>Phone</strong> +91 7350304620, +91 9322009028</p>
+      <p><strong>Hours</strong> 10:00-18:00,MOn-Sat</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information </a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart </a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </div>
+      <p>Secured Payment Getways</p>
+      <img src="" alt="" />
+    </div>
+    <div class="copyright">
+      <p>Copyright © Dhananjay Nimbalkar</p>
+    </div>
+  </footer>
+</body>
+<script>
+  const bar = document.getElementById("bar");
+  const nav = document.getElementById("navbar");
+  if (bar) {
+    bar.addEventListener("click", () => {
+      nav.classList.add("active");
+    });
+  }
+  if (close) {
+    close.addEventListener("click", () => {
+      nav.classList.remove("active");
+    });
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
